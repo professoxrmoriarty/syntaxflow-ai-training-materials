@@ -247,7 +247,7 @@ DESC
 	solution: <<<SOLUTION
 无需特别修复，但需要审计人员对当前代码逻辑进行分析，确保过滤机制存在且无法被绕过。
 SOLUTION
-	risk: "信息",
+	risk: "Info",
 	name: "filteredSink",
 }
 

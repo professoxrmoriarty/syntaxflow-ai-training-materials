@@ -78,7 +78,7 @@ alert $output for {
 	level: "info",
 	title: "Find Java Escape Method",
 	title_zh: "查找Java转义方法",
-	risk: "信息",
+	risk: "Info",
 	desc: <<<DESC
 "### 漏洞描述\n1. **漏洞原理**\nXSS（跨站脚本攻击）是由于应用程序未对用户输入进行严格的过滤或转义处理，攻击者可通过注入恶意脚本代码篡改页面逻辑或窃取用户数据。这类攻击常发生于直接输出未经验证的用户输入至前端页面、HTML标签或JavaScript上下文中。\n2. **触发场景**\n该规则用于查找Java代码中可能存在的实体转义方法，这些方法经常被用来防御XSS漏洞。例如：\n```java\npublic String escapeHtml(String input) {\nreturn input.replaceAll(\"&\", \"&amp;\")\n.replaceAll(\"<\", \"&lt;\")\n.replaceAll(\">\","\">\")\n.replaceAll(\"\\\\\", \"&#39;\");\n
 DESC

@@ -83,7 +83,7 @@ templateResolver.setTemplateMode(TemplateMode.HTML);
 #### 4. 定期审计模板配置
 定期审计模板配置文件，确保没有不当的配置项，及时发现潜在的安全风险。
 SOLUTION
-	risk: "信息",
+	risk: "Info",
 	desc: <<<DESC
 ### 规则描述
 #### 1. 漏洞原理
@@ -135,7 +135,7 @@ templateResolver.setTemplateMode(TemplateMode.HTML);
 #### 4. 定期审计模板配置
 定期审计模板配置文件，确保没有不当的配置项，及时发现潜在的安全风险。
 SOLUTION
-	risk: "信息",
+	risk: "Info",
 	desc: <<<DESC
 ### 规则描述
 #### 1. 漏洞原理

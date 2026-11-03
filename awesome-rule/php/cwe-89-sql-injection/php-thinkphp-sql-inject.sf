@@ -138,7 +138,7 @@ alert $controledNumberSink for {
 
 alert $sink for {
 	level: "low",
-	risk: "SQL注入",
+	risk: "SQL Injection",
 	title: "PHP Unvalidated ThinkPHP SQL Injection Vulnerability Was Detected",
 	title_zh: "检测到PHP ThinkPHP SQL注入漏洞",
 	desc: <<<DESC

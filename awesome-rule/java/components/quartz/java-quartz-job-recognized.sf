@@ -162,7 +162,7 @@ method.invoke(job);
 #### 5. 并发控制策略
 根据业务需求，正确使用 `@DisallowConcurrentExecution` 注解，防止多个任务实例同时运行导致的问题。
 SOLUTION
-	risk: "信息",
+	risk: "Info",
 }
 
 desc(

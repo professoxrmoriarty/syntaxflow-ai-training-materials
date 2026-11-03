@@ -351,7 +351,7 @@ if ($zip->open($zipFile) === TRUE) {
 6. **使用独立的沙箱环境解压**
 对于高风险场景，考虑在独立的沙箱环境中进行文件解压，完成后再安全地将所需文件移动到目标位置。
 SOLUTION
-	risk: "信息",
+	risk: "Info",
 	name: "low",
 }
 desc(

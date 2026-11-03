@@ -358,7 +358,7 @@ DESC
 	level: "info",
 	type: "info",
 	title: "PHP Unserialization Function Detected",
-	risk: "信息",
+	risk: "Info",
 	name: "info",
 	message: "检测到PHP反序列化函数 `unserialize()` 调用，建议开发者审查相关代码。",
 }

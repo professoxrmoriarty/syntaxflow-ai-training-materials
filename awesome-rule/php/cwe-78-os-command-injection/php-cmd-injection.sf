@@ -200,7 +200,7 @@ DESC
 	title: "Filtered PHP Command Execution",
 	name: "low",
 	message: "发现PHP命令执行相关函数调用，但已包含一定过滤机制，建议进一步审查。",
-	risk: "信息",
+	risk: "Info",
 }
 desc(
 	lang: 'php'

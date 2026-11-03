@@ -319,7 +319,7 @@ alert $filteredSink for {
 DESC
 	level: "low",
 	message: "The String or Content Filter is used. It is recommended to use the filter to prevent SSTI.",
-	risk: "信息",
+	risk: "Info",
 	name: "filteredSink",
 }
 

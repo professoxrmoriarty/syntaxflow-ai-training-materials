@@ -204,7 +204,7 @@ alert $low for {
 `extract`, `parse_str`, `import_request_variables`。
 DESC
 	level: "low",
-	risk: "信息",
+	risk: "Info",
 	name: "low",
 	message: "检测到PHP变量覆盖相关函数，但已存在过滤机制。",
 	solution: <<<SOLUTION
